@@ -1,0 +1,19 @@
+.main {
+  flex: 1 1;
+  min-width: 0;
+  position: relative;
+  background-color: #f4f4f4;
+}
+
+.container-fluid {
+  padding: 0 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.app-body {
+  display: flex;
+  overflow-x: initial;
+  flex-direction: row;
+  flex-grow: 1;
+}

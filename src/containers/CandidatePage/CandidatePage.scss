@@ -1,0 +1,29 @@
+.app-body {
+  display: flex;
+  overflow-x: initial;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.main {
+  flex: 1 1;
+  min-width: 0;
+  position: relative;
+  background-color: #f4f4f4;
+}
+
+.container-fluid {
+  padding: 0 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after {
+  right: 0px;
+  left: 0px;
+}
+
+.ant-menu-horizontal > .ant-menu-item::after {
+  right: 0px;
+  left: 0px;
+}

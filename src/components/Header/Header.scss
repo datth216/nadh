@@ -1,0 +1,44 @@
+.app-header {
+  background: linear-gradient(98deg, #4286f4, #00ce7f 60%);
+  flex: 0 0 55px;
+  // position: fixed;
+  z-index: 1020;
+  width: 100%;
+  flex-direction: row;
+  height: 55px;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #c8ced3;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  &__brand {
+    width: 255px;
+    justify-content: left;
+    margin-left: 30px;
+    display: inline-flex;
+    align-items: center;
+    height: 55px;
+    padding: 0;
+    margin-right: 0;
+    background-color: transparent;
+
+    & > a > img {
+      object-fit: cover;
+      width: 90px;
+    }
+  }
+
+  &__logout {
+    margin-right: 65px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+  }
+}
